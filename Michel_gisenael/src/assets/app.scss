@@ -1,0 +1,53 @@
+#card-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+.card-awesome {
+    max-width: 550px;
+    width: 550px;
+    padding-top: 40px;
+}
+
+.btn-submit {
+    width: 100%;
+}
+
+.card-platform {
+    position: absolute;
+    top: -180px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-physic-container {
+    width: 80%;
+    height: 250px;
+    border-radius: 5px;
+    color:  white;
+}
+
+.card-content {
+    position: absolute;
+    background-size: contain;
+    border-radius: 5px;
+    width: 80%;
+    height: 250px;
+    transition-duration: 1s;
+}

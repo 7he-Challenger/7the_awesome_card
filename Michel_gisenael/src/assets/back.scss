@@ -1,0 +1,20 @@
+.card-back {
+    padding-top: 30px;
+    // padding-bottom: 30px;
+}
+
+.gray-line {
+    height: 40px;
+    background-color: #a7a7a7;
+}
+
+.card-back.unactive{
+    transition-duration: 1s;
+    transform: perspective(2000px) rotateY(-180deg) rotateX(0deg) rotate(0deg);
+    opacity: 0;
+}
+
+.card-back.active {
+    transform: perspective(1000px) rotateY(0) rotateX(0deg) rotateZ(0deg);
+    opacity: 1;
+}
